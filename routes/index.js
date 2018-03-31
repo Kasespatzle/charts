@@ -106,9 +106,7 @@ router.post('/',(req,res,next)=>{
   .then(()=>{
     return res.send(process.env.APP_HOST +"/charts/"+ filename+"\n");
   });
-  
-  console.log(colors);
-  console.log(borders);
+
 });
 
 module.exports = router;
