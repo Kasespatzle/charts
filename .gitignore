@@ -1,0 +1,15 @@
+#Env files
+.env
+
+# node files
+/node_modules
+npm-debug.log
+
+#Intellij
+/.idea/*
+
+#vim files
+*.swp
+
+# medias
+/public/charts/*
