@@ -6,6 +6,7 @@ Chart generator
 ```bash
 $ git clone https://github.com/Kasespatzle/charts
 $ cd charts
+$ npm install
 $ npm start
 ```
 
